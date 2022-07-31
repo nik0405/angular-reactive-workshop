@@ -7,7 +7,7 @@ import { ProjectsListComponent } from './projects-list/projects-list.component';
 import { ProjectDetailsComponent } from './project-details/project-details.component';
 import { MaterialModule } from '@workshop/material';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
-import { CoreDataModule } from '@workshop/core-data';
+//mport { CoreDataModule } from '@workshop/core-data';
 
 @NgModule({
   imports: [
@@ -16,7 +16,7 @@ import { CoreDataModule } from '@workshop/core-data';
     MaterialModule,
     ReactiveFormsModule,
     FormsModule,
-    CoreDataModule
+    //CoreDataModule
   ],
   declarations: [
     ProjectsComponent,
